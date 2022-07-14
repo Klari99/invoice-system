@@ -1,9 +1,11 @@
 # invoice-system
 
-## Running the api
+## Running the API
 
 - `cd api`
 - `npm install`
+- `npx sequelize db:migrate`
+- `npm run db`
 - `npm start`
 
 ## Running the frontend

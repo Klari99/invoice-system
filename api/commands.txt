@@ -1,0 +1,4 @@
+npx sequelize model:generate --name Invoice --attributes customer:string,issueDate:date,dueDate:date,comment:string,invoiceTotal:integer
+npx sequelize model:generate --name Item --attributes name:string,price:integer,quantity:integer,totalPrice:integer
+npx sequelize db:migrate
+npm run db

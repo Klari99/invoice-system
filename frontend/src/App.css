@@ -1,0 +1,7 @@
+.invoices-table tbody tr {
+    cursor: pointer;
+}
+
+.invoices-table tbody tr:hover {
+  background-color: lightgrey;
+}
